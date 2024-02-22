@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+header{
+    
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+   
+}
+
+.container{
+    background-color: rgb(243, 235, 235);   
+    display: flex;
+    justify-content: space-between; 
+    text-align: center; 
+        
+}
+
+.logo_container{
+    height: 100px;
+    width: 10px;
+    position: static;
+    top: 0;
+   
+}
+
+.logo{
+    background-image: url(logo.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+
+.bar_container{
+     margin-top: 30px;
+     margin-right: 70px;
+     font-size: 30px;
+}
+
+.logo{
+    margin-left: 70px
+}  
+
+.hero_Rimag{
+    /* background-image: url("main_img.jpg"); */
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+
+.hero_container{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+.button{
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 15px;
+    padding: 7px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    background-color: rgb(212, 12, 12);
+    color: white;
+    border: none;
+    font-size: 15px;
+    padding: 7px;
+    margin-top: 20px; 
+}
+
+.discount{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding: 20px;
+    border-bottom: 1px solid black;    
+}
+
+.menu{
+    text-align: center;
+    margin-top: 40px;
+}
+
+button{
+    background-color: green;
+    color: white;
+    padding: 3px;
+    border: none;
+}
+
+.our_menu{
+    margin-top: 20px;
+}
+
+.foods{
+   display: flex;
+   flex-direction: row;
+   align-items: center;  
+   margin-top: 50px; 
+   justify-content: space-evenly;
+}
+
+.footer{
+    height: 200px;
+    background-color: gray;
+    margin-top: 50px;
+}
+
+.f_logo{
+    background-image: url("logo.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main_link1{
+    margin-top: 30px;
+}
+
+.main_link2{
+    margin-top: 30px;
+}
+
+.main_link3{
+    margin-top: 30px;
+}
+
+.mn1{
+    margin-bottom: 20px;
+}
+
+.mn2{
+    margin-bottom: 20px;
+}
+
+.mn3{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
